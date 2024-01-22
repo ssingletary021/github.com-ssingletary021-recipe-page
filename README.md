@@ -21,8 +21,8 @@ omelette-recipe.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://ssingletary021.github.io/github.com-ssingletary021-recipe-page/
+
 
 ## My process
 I started with HTML then CSS and I didn't remember about it needing to be responsive until I had the desktop version looking as close as I could get it. I struggled with trying to make it responsive afterwards.
