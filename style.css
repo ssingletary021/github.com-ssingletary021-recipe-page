@@ -1,0 +1,136 @@
+/* CSS reset */
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    /* line-height: 1.6; */
+    color: hsl(24, 5%, 18%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.menu {
+    width: 80%;
+    padding: 5%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+
+}
+
+img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+  p {
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+
+
+  }
+.rose-white {
+    width: 80%;
+    padding: 5%;
+    background-color: hsl(330, 100%, 98%);
+
+}
+
+.prep-time {
+    line-height: 2;
+}
+hr {
+    border: 1px solid hsl(30, 18%, 87%);
+
+}
+
+.ingredients {
+    line-height: 2;
+    padding-bottom: 2rem;
+
+}
+
+.instructions {
+    line-height: 1.6;
+    padding-bottom: 2rem;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px;
+    padding: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .menu {
+        width: 100%;
+    }
+}
